@@ -22,7 +22,12 @@ export default {
       timeline.fromTo(".nav__logo", { opacity: 0, y: -100 }, { opacity: 1, y: 0, ease: "power2.out" });
 
       navItems.forEach((item) => {
-        timeline.fromTo(item, { y: -100, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, stagger: 0.5 }, "<50%");
+        timeline.fromTo(
+          item,
+          { y: -100, opacity: 0 },
+          { y: 0, opacity: 1, duration: 1, stagger: 0.5, ease: "elastic.out(0.75, 0.5)" },
+          "<50%"
+        );
       });
     }
 
