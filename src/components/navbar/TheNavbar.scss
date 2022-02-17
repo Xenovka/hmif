@@ -1,6 +1,6 @@
-$font-color-primary: #0096c7;
-$font-color-secondary: #caf0f8;
 $color-primary: #00b4d8;
+$color-secondary: #caf0f8;
+$color-tertiary: #0096c7;
 
 .nav {
   height: 10vh;
@@ -33,9 +33,10 @@ $color-primary: #00b4d8;
       & a {
         position: relative;
         text-decoration: none;
+        font-family: "Poppins", sans-serif;
         font-size: 1rem;
         font-weight: 600;
-        color: $font-color-primary;
+        color: $color-tertiary;
         transition: all 0.3s ease;
 
         &::after {
@@ -48,7 +49,7 @@ $color-primary: #00b4d8;
           border: 2px solid $color-primary;
           border-radius: 4px;
           background-color: $color-primary;
-          color: $font-color-secondary;
+          color: $color-secondary;
           transition: all 0.2s ease;
         }
 

@@ -3,7 +3,7 @@
     <img class="nav__logo" src="../../assets/hmif.png" alt="logo" />
     <ul class="nav__item-container">
       <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
+      <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
       <li><a href="#">Events</a></li>
     </ul>
