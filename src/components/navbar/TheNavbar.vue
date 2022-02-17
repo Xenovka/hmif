@@ -1,6 +1,5 @@
 <template>
   <div class="nav">
-    <img class="nav__logo" src="../../assets/hmif.png" alt="logo" />
     <ul class="nav__item-container">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>

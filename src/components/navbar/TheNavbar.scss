@@ -1,30 +1,19 @@
-$color-primary: #00b4d8;
-$color-secondary: #caf0f8;
-$color-tertiary: #0096c7;
+@import "@/assets/main.scss";
 
 .nav {
   height: 10vh;
   width: 100vw;
   position: relative;
-
-  &__logo {
-    width: 150px;
-    height: 140px;
-    position: absolute;
-    top: 70%;
-    left: 5%;
-    transform: translateY(-50%);
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &__item-container {
-    position: absolute;
-    right: 2.5%;
-    top: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 40%;
 
     & li {
       list-style: none;
