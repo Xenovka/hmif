@@ -1,17 +1,16 @@
 <template>
-  <div class="container">
-    <TheNavbar />
-  </div>
+  <TheNavbar />
+  <HeroSection />
 </template>
 
 <script>
 import TheNavbar from "../components/navbar/TheNavbar.vue";
+import HeroSection from "@/components/hero/HeroSection.vue";
 
 export default {
   components: {
-    TheNavbar
+    TheNavbar,
+    HeroSection
   }
 };
 </script>
-
-<style lang="scss" scoped></style>

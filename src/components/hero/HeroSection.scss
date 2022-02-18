@@ -1,0 +1,12 @@
+@import "@/assets/main";
+
+.hero-container {
+  height: 90vh;
+  width: 95vw;
+  background-color: $color-primary-lighter;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  margin: 7vh auto 0;
+  z-index: -1;
+}

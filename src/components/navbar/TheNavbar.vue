@@ -18,13 +18,12 @@ export default {
     function gsapAnimation() {
       const navItems = document.querySelectorAll(".nav__item-container li");
       const timeline = gsap.timeline({ defaults: { duration: 0.75 } });
-      timeline.fromTo(".nav__logo", { opacity: 0, y: -100 }, { opacity: 1, y: 0, ease: "power2.out" });
 
       navItems.forEach((item) => {
         timeline.fromTo(
           item,
           { y: -100, opacity: 0 },
-          { y: 0, opacity: 1, duration: 1, stagger: 0.5, ease: "elastic.out(0.75, 0.5)" },
+          { y: 0, opacity: 1, duration: 0.75, stagger: 0.5, ease: "elastic.out(0.75, 0.5)" },
           "<50%"
         );
       });
