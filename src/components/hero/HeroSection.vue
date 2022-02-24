@@ -21,7 +21,7 @@ export default {
     function heroTitleAnimation() {
       const titleElements = document.querySelectorAll(".hero-title-animated");
       const timeline = gsap.timeline({ defaults: { duration: 0.75 } });
-      timeline.delay(1);
+      timeline.delay(2.5);
       titleElements.forEach((el) => {
         timeline.fromTo(
           el,

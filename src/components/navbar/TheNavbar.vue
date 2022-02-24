@@ -19,6 +19,7 @@ export default {
       const navItems = document.querySelectorAll(".nav__item-container li");
       const timeline = gsap.timeline({ defaults: { duration: 0.75 } });
 
+      timeline.delay(1);
       navItems.forEach((item) => {
         timeline.fromTo(
           item,
